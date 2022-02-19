@@ -11,17 +11,30 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html{
 
-  padding: .5em;
+
+
+  font-size: medium;
+  line-height: normal;
+  background-color: white;
+  padding: 1em;
+
 
 
 }
 
+h1{
+
+
+  font-size: 5em;
+}
 
 nav{
 
   background-color: #00ffd0;
   padding: 0;
   text-align: center;
+  margin-left: 25em;
+  margin-right: 25em;
 
 }
 
@@ -51,7 +64,7 @@ input {
 
 
   font-size: 2em;
-  grid-gap: 2em;
+  margin: .25em;
 }
 
 
