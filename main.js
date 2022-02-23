@@ -1,16 +1,16 @@
 
 document.querySelector('html').className = 'js';
 
-const anchorOne = {name:"Blue Devil1", price:45.99, weight:50, image:"blue"};
-const anchorTwo = {name:"Blue Devil2", price:"Doe", weight:50, image:"blue"};
-const anchorThree = {name:"Blue Devil3", price:"Doe", weight:50, image:"blue"};
-const anchorFour = {name:"Blue Devil4", price:"Doe", weight:50, image:"blue"};
-const anchorFive = {name:"Blue Devil5", price:"Doe", weight:50, image:"blue"};
-const anchorSix = {name:"Blue Devil6", price:"Doe", weight:50, image:"blue"};
-const anchorSeven = {name:"Blue Dev7il", price:"Doe", weight:50, image:"blue"};
-const anchorEight = {name:"Blue Devil8", price:"Doe", weight:50, image:"blue"};
-const anchorNine = {name:"Blue Devil9", price:"Doe", weight:50, image:"blue"};
-const anchorTen = {name:"Blue Devil10", price:"Doe", weight:50, image:"blue"};
+const anchorOne = {name:"4 Pronged Glory", price:45.99, weight:87, image:"blue"};
+const anchorTwo = {name:"Built for a Battleship", price:1699.99, weight:762, image:"blue"};
+const anchorThree = {name:"Black Pearl", price:75.99, weight:45, image:"blue"};
+const anchorFour = {name:"Oceans Gem", price:450.99, weight:120, image:"blue"};
+const anchorFive = {name:"Modern", price:49.99, weight:35, image:"blue"};
+const anchorSix = {name:"Pirates Treasure", price:12000.99, weight:12, image:"blue"};
+const anchorSeven = {name:"Rusted Beauty", price:9.99, weight:63, image:"blue"};
+const anchorEight = {name:"The Grappler", price:29.99, weight:55, image:"blue"};
+const anchorNine = {name:"The Spoon", price:43.99, weight:88, image:"blue"};
+const anchorTen = {name:"Wooden Master", price:7.99, weight:5, image:"blue"};
 
 
 const inventory = [anchorOne, anchorTwo, anchorThree, anchorFour, anchorFive, anchorSix, anchorSeven, anchorEight, anchorNine, anchorTen];
