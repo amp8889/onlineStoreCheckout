@@ -81,11 +81,6 @@ document.addEventListener("load", cart());
 
 try{
 
-
-
-
-
-
 var contOneButton = document.getElementById('cont-one');
 
 contOneButton.addEventListener('click', function(){
@@ -212,10 +207,10 @@ function run(){
 
 
   console.log("On load Worked")
-  document.getElementById('item_one_final').innerText = itemOne.name + "       " + itemOne.price;
-  document.getElementById('item_two_final').innerText = itemTwo.name + "       " + itemTwo.price
-  document.getElementById('item_three_final').innerText = itemThree.name + "       " + itemThree.price
-  document.getElementById('item_four_final').innerText = itemFour.name + "       " + itemFour.price
+  document.getElementById('item-one-final').innerText = itemOne.name + "       " + itemOne.price;
+  document.getElementById('item-two-final').innerText = itemTwo.name + "       " + itemTwo.price
+  document.getElementById('item-three-final').innerText = itemThree.name + "       " + itemThree.price
+  document.getElementById('item-four-final').innerText = itemFour.name + "       " + itemFour.price
 
 
 
