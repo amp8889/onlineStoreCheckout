@@ -15,56 +15,75 @@ const anchorTen = {name:"Wooden Master", price:7.99, weight:5, image:"assets/woo
 
 const inventory = [anchorOne, anchorTwo, anchorThree, anchorFour, anchorFive, anchorSix, anchorSeven, anchorEight, anchorNine, anchorTen];
 
+var numOne = Math.floor(Math.random() * (10 - 0) + 0);
+var numTwo = Math.floor(Math.random() * (10 - 0) + 0);
+var numThree = Math.floor(Math.random() * (10 - 0) + 0);
+var numFour = Math.floor(Math.random() * (10 - 0) + 0);
+
+var itemOne = inventory[numOne];
+var itemTwo = inventory[numTwo];
+var itemThree = inventory[numThree];
+var itemFour = inventory[numFour];
+
+
+
+
+function cart(){
+
+
+  try{
+  var num = Math.floor(Math.random() * (10 - 0) + 0);
+
+  document.getElementById('nameOne').innerText = "Name: " + inventory[numOne].name;
+  document.getElementById('priceOne').innerText = "Price: " + inventory[numOne].price;
+  document.getElementById('weightOne').innerText = "Weight: " + inventory[numOne].weight;
+  document.getElementById('imageOne').src = inventory[numOne].image;
+  var itemOne = inventory[numOne];
+
+  var num = Math.floor(Math.random() * (10 - 0) + 0);
+
+  document.getElementById('nameTwo').innerText = "Name: " + inventory[numTwo].name;
+  document.getElementById('priceTwo').innerText = "Price: " + inventory[numTwo].price;
+  document.getElementById('weightTwo').innerText = "Weight: " + inventory[numTwo].weight;
+  document.getElementById('imageTwo').src = inventory[numTwo].image;
+  var itemTwo = inventory[numTwo];
+
+
+
+  var num = Math.floor(Math.random() * (10 - 0) + 0);
+
+  document.getElementById('nameThree').innerText = "Name: " + inventory[numThree].name;
+  document.getElementById('priceThree').innerText = "Price: " + inventory[numThree].price;
+  document.getElementById('weightThree').innerText = "Weight: " + inventory[numThree].weight;
+  document.getElementById('imageThree').src = inventory[numThree].image;
+  var itemThree = inventory[numThree];
+
+
+
+  var num = Math.floor(Math.random() * (10 - 0) + 0);
+
+  document.getElementById('nameFour').innerText = "Name: " + inventory[numFour].name;
+  document.getElementById('priceFour').innerText = "Price: " + inventory[numFour].price;
+  document.getElementById('weightFour').innerText = "Weight: " + inventory[numFour].weight;
+  document.getElementById('imageFour').src = inventory[numFour].image;
+  var itemFour = inventory[numFour];
+}
+catch(err){
+
+}
+
+}
+
+
+document.addEventListener("load", cart());
+
+
 
 try{
-var generateCartBT = document.getElementById('GCBT');
-
-generateCartBT.addEventListener('click', function(){
-
-  var num = Math.floor(Math.random() * (10 - 0) + 0);
-
-  document.getElementById('nameOne').innerText = "Name: " + inventory[num].name;
-  document.getElementById('priceOne').innerText = "Price: " + inventory[num].price;
-  document.getElementById('weightOne').innerText = "Weight: " + inventory[num].weight;
-  document.getElementById('imageOne').src = inventory[num].image;
-  var itemOne = inventory[num];
-
-  var num = Math.floor(Math.random() * (10 - 0) + 0);
-
-  document.getElementById('nameTwo').innerText = "Name: " + inventory[num].name;
-  document.getElementById('priceTwo').innerText = "Price: " + inventory[num].price;
-  document.getElementById('weightTwo').innerText = "Weight: " + inventory[num].weight;
-  document.getElementById('imageTwo').src = inventory[num].image;
-  var itemTwo = inventory[num];
-
-
-
-  var num = Math.floor(Math.random() * (10 - 0) + 0);
-
-  document.getElementById('nameThree').innerText = "Name: " + inventory[num].name;
-  document.getElementById('priceThree').innerText = "Price: " + inventory[num].price;
-  document.getElementById('weightThree').innerText = "Weight: " + inventory[num].weight;
-  document.getElementById('imageThree').src = inventory[num].image;
-  var itemThree = inventory[num];
-
-
-
-  var num = Math.floor(Math.random() * (10 - 0) + 0);
-
-  document.getElementById('nameFour').innerText = "Name: " + inventory[num].name;
-  document.getElementById('priceFour').innerText = "Price: " + inventory[num].price;
-  document.getElementById('weightFour').innerText = "Weight: " + inventory[num].weight;
-  document.getElementById('imageFour').src = inventory[num].image;
-  var itemFour = inventory[num];
 
 
 
 
-  console.log('TeSTING')
-  console.log(num);
-
-
-});
 
 
 var contOneButton = document.getElementById('cont_one');
@@ -128,6 +147,11 @@ contThreeButton.addEventListener('click', function(){
   location.href = "../review/";
 
 
+
+
+
+
+
 });
 
 
@@ -155,9 +179,50 @@ backThreeButton.addEventListener('click', function(){
 
 
 });
+
+var viewOrderButton = document.getElementById('view_order');
+
+viewOrderButton.addEventListener('click', function(){
+
+  console.log("Final Button")
+  document.getElementById('item_one_final').innerText = itemOne.name;
+  document.getElementById('item_two_final').innerText = itemTwo.name;
+  document.getElementById('item_three_final').innerText = itemThree.name;
+  document.getElementById('item_four_final').innerText = itemFour.name;
+
+
+
+
+
+
+});
+
+
+
+
+
 }
 catch(err){
 }
+
+
+
+
+function run(){
+
+
+  console.log("On load Worked")
+  document.getElementById('item_one_final').innerText = itemOne.name + "       " + itemOne.price;
+  document.getElementById('item_two_final').innerText = itemTwo.name + "       " + itemTwo.price
+  document.getElementById('item_three_final').innerText = itemThree.name + "       " + itemThree.price
+  document.getElementById('item_four_final').innerText = itemFour.name + "       " + itemFour.price
+
+
+
+
+}
+
+document.addEventListener("load", run());
 
 
 
