@@ -156,7 +156,7 @@ var backTwoButton = document.getElementById('back-two');
 backTwoButton.addEventListener('click', function(){
 
   console.log("Worked")
-  location.href = "../payment/";
+  location.href = "payment/";
 
 
 });
