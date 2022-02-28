@@ -25,6 +25,7 @@ generateCartBT.addEventListener('click', function(){
   document.getElementById('priceOne').innerText = "Price: " + inventory[num].price;
   document.getElementById('weightOne').innerText = "Weight: " + inventory[num].weight;
   document.getElementById('imageOne').src = inventory[num].image;
+  var itemOne = inventory[num];
 
   var num = Math.floor(Math.random() * (10 - 0) + 0);
 
@@ -32,6 +33,8 @@ generateCartBT.addEventListener('click', function(){
   document.getElementById('priceTwo').innerText = "Price: " + inventory[num].price;
   document.getElementById('weightTwo').innerText = "Weight: " + inventory[num].weight;
   document.getElementById('imageTwo').src = inventory[num].image;
+  var itemTwo = inventory[num];
+
 
 
   var num = Math.floor(Math.random() * (10 - 0) + 0);
@@ -40,6 +43,8 @@ generateCartBT.addEventListener('click', function(){
   document.getElementById('priceThree').innerText = "Price: " + inventory[num].price;
   document.getElementById('weightThree').innerText = "Weight: " + inventory[num].weight;
   document.getElementById('imageThree').src = inventory[num].image;
+  var itemThree = inventory[num];
+
 
 
   var num = Math.floor(Math.random() * (10 - 0) + 0);
@@ -48,6 +53,8 @@ generateCartBT.addEventListener('click', function(){
   document.getElementById('priceFour').innerText = "Price: " + inventory[num].price;
   document.getElementById('weightFour').innerText = "Weight: " + inventory[num].weight;
   document.getElementById('imageFour').src = inventory[num].image;
+  var itemFour = inventory[num];
+
 
 
 
