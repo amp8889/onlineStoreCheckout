@@ -85,7 +85,7 @@ var contOneButton = document.getElementById('cont-one');
 
 contOneButton.addEventListener('click', function(){
 
-  location.href = "../payment/";
+  location.href = "payment/";
 
 
 });
@@ -156,7 +156,7 @@ var backTwoButton = document.getElementById('back-two');
 backTwoButton.addEventListener('click', function(){
 
   console.log("Worked")
-  location.href = "payment/";
+  location.href = "../payment/";
 
 
 });
