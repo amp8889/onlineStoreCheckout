@@ -15,6 +15,8 @@ const anchorTen = {name:"Wooden Master", price:7.99, weight:5, image:"assets/woo
 
 const inventory = [anchorOne, anchorTwo, anchorThree, anchorFour, anchorFive, anchorSix, anchorSeven, anchorEight, anchorNine, anchorTen];
 
+
+try{
 var generateCartBT = document.getElementById('GCBT');
 
 generateCartBT.addEventListener('click', function(){
@@ -63,5 +65,111 @@ generateCartBT.addEventListener('click', function(){
 
 
 });
+
+
+var contOneButton = document.getElementById('cont_one');
+
+contOneButton.addEventListener('click', function(){
+
+  location.href = "../payment/";
+
+
+});
+}
+catch(err){
+}
+
+
+
+
+
+
+
+
+try{
+var contTwoButton = document.getElementById('cont_two');
+
+contTwoButton.addEventListener('click', function(){
+
+  console.log("Worked")
+  location.href = "../shipping/";
+
+
+});
+
+var backOneButton = document.getElementById('back_one');
+
+backOneButton.addEventListener('click', function(){
+
+  console.log("Worked")
+  location.href = "../";
+
+
+});
+}
+catch(err){
+}
+
+
+
+
+
+
+
+
+
+
+
+try{
+var contThreeButton = document.getElementById('cont_three');
+
+contThreeButton.addEventListener('click', function(){
+
+  location.href = "../review/";
+
+
+});
+
+
+
+var backTwoButton = document.getElementById('back_two');
+
+backTwoButton.addEventListener('click', function(){
+
+  console.log("Worked")
+  location.href = "../payment/";
+
+
+});
+}
+catch(err){
+}
+
+try{
+var backThreeButton = document.getElementById('back_three');
+
+backThreeButton.addEventListener('click', function(){
+
+  console.log("Worked")
+  location.href = "../shipping/";
+
+
+});
+}
+catch(err){
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 console.log('TeSTING2')
