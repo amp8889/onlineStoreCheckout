@@ -8,52 +8,38 @@
     <body>
       <header id="site-header">
         <h1>Aidan's Anchors For All'</h1>
-
+          <nav id="site-nav">
+            <ul>
+              <li>
+                <a href="../">Start</a>
+              </li>
+              <li>
+                <a href="../payment/">Payment</a>
+              </li>
+              <li>
+                <a href="../shipping/">Shipping</a>
+              </li>
+              <li>
+                <a href="../review/">Review Order</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
         <main id="content">
-        <nav id="site-nav">
-          <ul>
-            <li>
-              <a href="../">Start</a>
-            </li>
-            <li>
-              <a href="../payment/">Payment</a>
-            </li>
-            <li>
-              <a href="../shipping/">Shipping</a>
-            </li>
-            <li>
-              <a href="../review/">Review Order</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
-      <h2>Payment</h2>
-
-
-
-        <section>
-          <ul>
-            <li><input type="text" id="card_type" placeholder="Card Type"/> </li>
-            <li><input type="text" id="card_num" placeholder="Card Number"/> </li>
-            <li><input type="text" id="text_name" placeholder="Name on Card"/> </li>
-            <li><input type="text" id="billing_one" placeholder="Billing Address 1"/> </li>
-            <li><input type="text" id="billing_two" placeholder="Billing Address 2"/> </li>
-            <li><input type="text" id="sec_code" placeholder="Security Code"/> </li>
-
-
-          </ul>
-
-
-
-        </section>
-
-
-      </main>
-
-
-      <input type="button" id="back_one" value="Back"/>
-      <input type="button" id="cont_two" value="Save and Continue"/>
+          <h2>Payment</h2>
+            <section>
+              <ul>
+                <li><input type="number" name="cardtype" id="cardtype" placeholder="Card Type"/> </li>
+                <li><input type="number" name="cardnum" id="cardnum" placeholder="Card Number"/> </li>
+                <li><input type="text" name="name" id="name"  placeholder="Name on Card"/> </li>
+                <li><input type="text" name="bill" id="bill" placeholder="Billing Address 1"/> </li>
+                <li><input type="text" name="billtwo" id="billtwo" placeholder="Billing Address 2"/> </li>
+                <li><input type="number" name="seccode" id="seccode" placeholder="Security Code"/> </li>
+              </ul>
+            </section>
+        </main>
+      <input type="button" id="back-one" value="Back"/>
+      <input type="button" id="cont-two" value="Save and Continue"/>
       <footer id="footer">
         <p>Site content for Aidan's Anchors for All'</p>
       </footer>

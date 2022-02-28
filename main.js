@@ -34,38 +34,38 @@ function cart(){
   try{
   var num = Math.floor(Math.random() * (10 - 0) + 0);
 
-  document.getElementById('nameOne').innerText = "Name: " + inventory[numOne].name;
-  document.getElementById('priceOne').innerText = "Price: " + inventory[numOne].price;
-  document.getElementById('weightOne').innerText = "Weight: " + inventory[numOne].weight;
-  document.getElementById('imageOne').src = inventory[numOne].image;
+  document.getElementById('name-one').innerText = "Name: " + inventory[numOne].name;
+  document.getElementById('price-one').innerText = "Price: " + inventory[numOne].price;
+  document.getElementById('weight-one').innerText = "Weight: " + inventory[numOne].weight;
+  document.getElementById('image-one').src = inventory[numOne].image;
   var itemOne = inventory[numOne];
 
   var num = Math.floor(Math.random() * (10 - 0) + 0);
 
-  document.getElementById('nameTwo').innerText = "Name: " + inventory[numTwo].name;
-  document.getElementById('priceTwo').innerText = "Price: " + inventory[numTwo].price;
-  document.getElementById('weightTwo').innerText = "Weight: " + inventory[numTwo].weight;
-  document.getElementById('imageTwo').src = inventory[numTwo].image;
+  document.getElementById('name-two').innerText = "Name: " + inventory[numTwo].name;
+  document.getElementById('price-two').innerText = "Price: " + inventory[numTwo].price;
+  document.getElementById('weight-two').innerText = "Weight: " + inventory[numTwo].weight;
+  document.getElementById('image-two').src = inventory[numTwo].image;
   var itemTwo = inventory[numTwo];
 
 
 
   var num = Math.floor(Math.random() * (10 - 0) + 0);
 
-  document.getElementById('nameThree').innerText = "Name: " + inventory[numThree].name;
-  document.getElementById('priceThree').innerText = "Price: " + inventory[numThree].price;
-  document.getElementById('weightThree').innerText = "Weight: " + inventory[numThree].weight;
-  document.getElementById('imageThree').src = inventory[numThree].image;
+  document.getElementById('name-three').innerText = "Name: " + inventory[numThree].name;
+  document.getElementById('price-three').innerText = "Price: " + inventory[numThree].price;
+  document.getElementById('weight-three').innerText = "Weight: " + inventory[numThree].weight;
+  document.getElementById('image-three').src = inventory[numThree].image;
   var itemThree = inventory[numThree];
 
 
 
   var num = Math.floor(Math.random() * (10 - 0) + 0);
 
-  document.getElementById('nameFour').innerText = "Name: " + inventory[numFour].name;
-  document.getElementById('priceFour').innerText = "Price: " + inventory[numFour].price;
-  document.getElementById('weightFour').innerText = "Weight: " + inventory[numFour].weight;
-  document.getElementById('imageFour').src = inventory[numFour].image;
+  document.getElementById('name-four').innerText = "Name: " + inventory[numFour].name;
+  document.getElementById('price-four').innerText = "Price: " + inventory[numFour].price;
+  document.getElementById('weight-four').innerText = "Weight: " + inventory[numFour].weight;
+  document.getElementById('image-four').src = inventory[numFour].image;
   var itemFour = inventory[numFour];
 }
 catch(err){
@@ -86,7 +86,7 @@ try{
 
 
 
-var contOneButton = document.getElementById('cont_one');
+var contOneButton = document.getElementById('cont-one');
 
 contOneButton.addEventListener('click', function(){
 
@@ -106,7 +106,7 @@ catch(err){
 
 
 try{
-var contTwoButton = document.getElementById('cont_two');
+var contTwoButton = document.getElementById('cont-two');
 
 contTwoButton.addEventListener('click', function(){
 
@@ -116,7 +116,7 @@ contTwoButton.addEventListener('click', function(){
 
 });
 
-var backOneButton = document.getElementById('back_one');
+var backOneButton = document.getElementById('back-one');
 
 backOneButton.addEventListener('click', function(){
 
@@ -140,7 +140,7 @@ catch(err){
 
 
 try{
-var contThreeButton = document.getElementById('cont_three');
+var contThreeButton = document.getElementById('cont-three');
 
 contThreeButton.addEventListener('click', function(){
 
@@ -156,7 +156,7 @@ contThreeButton.addEventListener('click', function(){
 
 
 
-var backTwoButton = document.getElementById('back_two');
+var backTwoButton = document.getElementById('back-two');
 
 backTwoButton.addEventListener('click', function(){
 
@@ -170,7 +170,7 @@ catch(err){
 }
 
 try{
-var backThreeButton = document.getElementById('back_three');
+var backThreeButton = document.getElementById('back-three');
 
 backThreeButton.addEventListener('click', function(){
 
@@ -180,7 +180,7 @@ backThreeButton.addEventListener('click', function(){
 
 });
 
-var viewOrderButton = document.getElementById('view_order');
+var viewOrderButton = document.getElementById('view-order');
 
 viewOrderButton.addEventListener('click', function(){
 

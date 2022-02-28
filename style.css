@@ -9,9 +9,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 
-html{
-
-
+html {
 
   font-size: medium;
   line-height: normal;
@@ -22,21 +20,20 @@ html{
 
 }
 
-h1{
-
+h1 {
 
   font-size: 5em;
-  background-color: #00ffd0
+  background-color: #00ffd0;
 }
 
 
-h2{
+h2 {
 
 
   font-size: 3em;
 }
 
-nav{
+nav {
 
   background-color: #00ffd0;
   padding: 0;
@@ -47,40 +44,23 @@ nav{
 }
 
 
-nav li{
+nav li {
 
   display: inline-grid;
   text-align: center;
   padding: 1em;
   text-indent: 0;
-  font-size: 1.0em;
-
-
+  font-size: 1em;
 }
 
 
-nav li:hover {
-
-
-
-
-
-}
-
-
-#content{
-
-
-
-
-}
 
 
 input {
 
 
   font-size: 2em;
-  margin: .25em;
+  margin: 0.25em;
 }
 
 
