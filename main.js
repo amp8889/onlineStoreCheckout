@@ -1,5 +1,8 @@
 
+var html = document.querySelector('html');
 document.querySelector('html').className = 'js';
+
+if (html.id === 'create-post') {
 
 const anchorOne = {name:"4 Pronged Glory", price:45.99, weight:87, image:"assets/4Prong.jpg"};
 const anchorTwo = {name:"Built for a Battleship", price:1699.99, weight:762, image:"assets/battleShip.jpg"};
@@ -95,7 +98,7 @@ catch(err){
 
 
 
-
+}
 
 
 
