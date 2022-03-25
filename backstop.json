@@ -10,15 +10,22 @@
       "label": "tablet",
       "width": 1024,
       "height": 768
+    },
+    {
+      "label": "big_tablet_landscape",
+      "width": 1800,
+      "height": 900
     }
+
+
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
+      "label": "Online Store Homepage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
+      "url": "http://localhost:8080/",
       "referenceUrl": "",
       "readyEvent": "",
       "readySelector": "",
