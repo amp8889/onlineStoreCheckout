@@ -29,52 +29,55 @@
           </header>
           <h2>Shipping Information</h2>
           <main id="content">
-            <section>
-              <ul>
-                <li>
-                  <label for="ship-name">Name</label>
-                  <input type="text" name="ship-name" id="ship-name" />
-                </li>
-                <li>
-                  <label for="ship-address-one">Shipping Address One</label>
-                  <input type="text" name="ship-address-one" id="ship-address-one" />
-                </li>
-                <li>
-                  <label for="ship-address-two">Shipping Address Two</label>
-                  <input type="text" name="ship-address-two" id="ship-address-two" />
-                </li>
-                <li>
-                  <label for="ship-city">City</label>
-                  <input type="text" name="ship-city" id="ship-city" />
-                </li>
-                <li>
-                  <label for="scountry">Country</label>
-                  <input type="text" name="scountry" id="scountry" />
-                </li>
-                <li>
-                  <label for="szip">Zip Code</label>
-                  <input type="text" name="szip" id="szip" />
-                </li>
-                <li>
-                  <label for="sstate">State</label>
-                  <input type="text" name="sstate" id="sstate" />
-                </li>
-                <li>
-                  <label for="ship-po">PO</label>
-                  <input type="text" name="ship-po" id="ship-po" />
-                </li>
-              </ul>
+            <form name="post" action="../review/" method="get" aria-live="polite" aria-relevant="additions">
+
+              <section>
+                <ul>
+                  <li>
+                    <label for="ship-name">Name</label>
+                    <input type="text" name="ship-name" id="ship-name" />
+                  </li>
+                  <li>
+                    <label for="ship-address-one">Shipping Address One</label>
+                    <input type="text" name="ship-address-one" id="ship-address-one" />
+                  </li>
+                  <li>
+                    <label for="ship-address-two">Shipping Address Two</label>
+                    <input type="text" name="ship-address-two" id="ship-address-two" />
+                  </li>
+                  <li>
+                    <label for="ship-city">City</label>
+                    <input type="text" name="ship-city" id="ship-city" />
+                  </li>
+                  <li>
+                    <label for="scountry">Country</label>
+                    <input type="text" name="scountry" id="scountry" />
+                  </li>
+                  <li>
+                    <label for="szip">Zip Code</label>
+                    <input type="text" name="szip" id="szip" />
+                  </li>
+                  <li>
+                    <label for="sstate">State</label>
+                    <input type="text" name="sstate" id="sstate" />
+                  </li>
+                  <li>
+                    <label for="ship-po">PO</label>
+                    <input type="text" name="ship-po" id="ship-po" />
+                  </li>
+                </ul>
 
 
 
 
-            </section>
+              </section>
+
+              <button type="submit">Save and Continue to Review</button>
+              <button type="submit">Save and go back to Payment</button>
+            </form>
           </main>
-      <input type="button" id="back-two" value="Back"/>
-      <input type="button" id="cont-three" value="Save and Continue"/>
 
-      <button type="submit">Save and Continue to Review</button>
-      <button type="submit">Save and go back to Payment</button>
+
 
 
         <footer id="footer">
