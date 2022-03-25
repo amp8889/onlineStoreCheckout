@@ -38,8 +38,7 @@ nav {
   background-color: #00ffd0;
   padding: 0;
   text-align: center;
-  margin-left: 25em;
-  margin-right: 25em;
+
 
 }
 
@@ -53,14 +52,24 @@ nav li {
   font-size: 1em;
 }
 
+nav li:hover {
+
+  background-color: #963c15;
+
+
+
+}
+
 
 
 
 input {
 
-
+  display: grid;
   font-size: 2em;
   margin: 0.25em;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 
@@ -69,6 +78,13 @@ section {
 
   background-color: #b8cfca;
   padding: 2em;
+
+
+
+
+}
+
+image {
 
 
 
