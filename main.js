@@ -62,38 +62,38 @@ if (html.id === 'home-page') {
     try{
     //var num = Math.floor(Math.random() * (10 - 0) + 0);
 
-    document.getElementById('name-one').innerText = "Name: " + itemOne.name;
-    document.getElementById('price-one').innerText = "Price: " + itemOne.price;
-    document.getElementById('weight-one').innerText = "Weight: " + itemOne.weight;
-    document.getElementById('image-one').src = itemOne.image;
+    document.querySelector('#name-one').innerHTML = "Name: " + itemOne.name;
+    document.querySelector('#price-one').innerHTML = "Price: " + itemOne.price;
+    document.querySelector('#weight-one').innerHTML = "Weight: " + itemOne.weight;
+    document.querySelector('#image-one').src = itemOne.image;
     //var itemOne = inventory[numOne];
 
     //var num = Math.floor(Math.random() * (10 - 0) + 0);
 
-    document.getElementById('name-two').innerText = "Name: " + itemTwo.name;
-    document.getElementById('price-two').innerText = "Price: " + itemTwo.price;
-    document.getElementById('weight-two').innerText = "Weight: " + itemTwo.weight;
-    document.getElementById('image-two').src = itemTwo.image;
+    document.querySelector('#name-two').innerHTML = "Name: " + itemTwo.name;
+    document.querySelector('#price-two').innerHTML = "Price: " + itemTwo.price;
+    document.querySelector('#weight-two').innerHTML = "Weight: " + itemTwo.weight;
+    document.querySelector('#image-two').src = itemTwo.image;
     //var itemTwo = inventory[numTwo];
 
 
 
     //var num = Math.floor(Math.random() * (10 - 0) + 0);
 
-    document.getElementById('name-three').innerText = "Name: " + itemThree.name;
-    document.getElementById('price-three').innerText = "Price: " + itemThree.price;
-    document.getElementById('weight-three').innerText = "Weight: " + itemThree.weight;
-    document.getElementById('image-three').src = itemThree.image;
+    document.querySelector('#name-three').innerHTML = "Name: " + itemThree.name;
+    document.querySelector('#price-three').innerHTML = "Price: " + itemThree.price;
+    document.querySelector('#weight-three').innerHTML = "Weight: " + itemThree.weight;
+    document.querySelector('#image-three').src = itemThree.image;
     //var itemThree = inventory[numThree];
 
 
 
     //var num = Math.floor(Math.random() * (10 - 0) + 0);
 
-    document.getElementById('name-four').innerText = "Name: " + itemFour.name;
-    document.getElementById('price-four').innerText = "Price: " + itemFour.price;
-    document.getElementById('weight-four').innerText = "Weight: " + itemFour.weight;
-    document.getElementById('image-four').src = itemFour.image;
+    document.querySelector('#name-four').innerHTML = "Name: " + itemFour.name;
+    document.querySelector('#price-four').innerHTML = "Price: " + itemFour.price;
+    document.querySelector('#weight-four').innerHTML = "Weight: " + itemFour.weight;
+    document.querySelector('#image-four').src = itemFour.image;
     //var itemFour = inventory[numFour];
   }
   catch(err){
@@ -104,6 +104,8 @@ if (html.id === 'home-page') {
 
 
 }
+
+//Not Currently Using this, but will in the Future
 
 
 if (html.id === 'review-page') {
