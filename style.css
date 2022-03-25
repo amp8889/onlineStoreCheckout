@@ -11,10 +11,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
 
-  font-size: medium;
+  font-size: large;
   font-family: 'Inconsolata', monospace;
   line-height: normal;
-  background-color: white;
+  background-color: #d9f0a3;
 
 
 
@@ -51,12 +51,12 @@ nav li {
   text-align: center;
   padding: 1em;
   text-indent: 0;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 nav li:hover {
 
-  background-color: #963c15;
+  background-color: #008a7c;
 
 
 
@@ -81,7 +81,7 @@ section {
 
 
 
-  background-color: #b8cfca;
+  background-color: #5cffbe;
   padding: 2em;
   w
 
@@ -96,7 +96,6 @@ section {
 
 
 padding: .5em;
-background-color: green;
 
 
 
@@ -104,7 +103,11 @@ background-color: green;
 }
 
 
+p {
 
+
+  font-size: 1.5em;
+}
 
 img {
 
