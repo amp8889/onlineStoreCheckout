@@ -21,10 +21,11 @@ html {
 
 }
 
+
 h1 {
 
   font-size: 5em;
-  background-color: #00ffd0;
+  background-color: #00ffe5;
   padding: .25em;
 }
 
@@ -37,7 +38,7 @@ h2 {
 
 nav {
 
-  background-color: #00ffd0;
+  background-color: #00ffe5;
   padding: 0;
   text-align: center;
 
