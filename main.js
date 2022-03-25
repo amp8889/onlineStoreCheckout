@@ -2,9 +2,8 @@
 var html = document.querySelector('html');
 document.querySelector('html').className = 'js';
 
-if (html.id === 'create-post') {
 
-const anchors = [
+var anchors = [
 
   {
     name:"4 Pronged Glory", price:45.99, weight:87, image:"assets/4Prong.jpg"
@@ -38,22 +37,23 @@ const anchors = [
   }
 ]
 
+if (html.id === 'home-page') {
 
-
-
-const inventory = [anchorOne, anchorTwo, anchorThree, anchorFour, anchorFive, anchorSix, anchorSeven, anchorEight, anchorNine, anchorTen];
 
 var numOne = Math.floor(Math.random() * (10 - 0) + 0);
 var numTwo = Math.floor(Math.random() * (10 - 0) + 0);
 var numThree = Math.floor(Math.random() * (10 - 0) + 0);
 var numFour = Math.floor(Math.random() * (10 - 0) + 0);
 
-var itemOne = inventory[numOne];
-var itemTwo = inventory[numTwo];
-var itemThree = inventory[numThree];
-var itemFour = inventory[numFour];
+var itemOne = anchors[numOne];
+var itemTwo = anchors[numTwo];
+var itemThree = anchors[numThree];
+var itemFour = anchors[numFour];
 
 
+
+
+document.addEventListener("load", cart());
 
 
 function cart(){
@@ -62,10 +62,10 @@ function cart(){
   try{
   var num = Math.floor(Math.random() * (10 - 0) + 0);
 
-  document.getElementById('name-one').innerText = "Name: " + inventory[numOne].name;
-  document.getElementById('price-one').innerText = "Price: " + inventory[numOne].price;
-  document.getElementById('weight-one').innerText = "Weight: " + inventory[numOne].weight;
-  document.getElementById('image-one').src = inventory[numOne].image;
+  document.getElementById('name-one').innerText = "Name: " + anchor[numOne].name;
+  document.getElementById('price-one').innerText = "Price: " + anchor[numOne].price;
+  document.getElementById('weight-one').innerText = "Weight: " + anchor[numOne].weight;
+  document.getElementById('image-one').src = anchor[numOne].image;
   var itemOne = inventory[numOne];
 
   var num = Math.floor(Math.random() * (10 - 0) + 0);
@@ -103,10 +103,10 @@ catch(err){
 }
 
 
-document.addEventListener("load", cart());
+}
 
 
-
+if (html.id === 'review-page') {
 
 
 var viewOrderButton = document.getElementById('view-order');
@@ -129,40 +129,24 @@ viewOrderButton.addEventListener('click', function(){
 
 
 
-
 }
 
 
 
 
+/*
 
 function run(){
 
 
-  console.log("On load Worked")
   document.getElementById('item-one-final').innerText = itemOne.name + "       " + itemOne.price;
   document.getElementById('item-two-final').innerText = itemTwo.name + "       " + itemTwo.price
   document.getElementById('item-three-final').innerText = itemThree.name + "       " + itemThree.price
   document.getElementById('item-four-final').innerText = itemFour.name + "       " + itemFour.price
 
-
-
-
-}
-
-document.addEventListener("load", run());
+*/
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-console.log('TeSTING2')
+//document.addEventListener("load", run());
