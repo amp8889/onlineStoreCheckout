@@ -12,9 +12,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
 
   font-size: medium;
+  font-family: 'Inconsolata', monospace;
   line-height: normal;
   background-color: white;
-  padding: 1em;
+
 
 
 
@@ -24,6 +25,7 @@ h1 {
 
   font-size: 5em;
   background-color: #00ffd0;
+  padding: .25em;
 }
 
 
@@ -70,23 +72,45 @@ input {
   margin: 0.25em;
   min-width: 100%;
   max-width: 100%;
+
 }
 
 
 
 section {
 
+
+
   background-color: #b8cfca;
   padding: 2em;
+  w
+
+}
+
+
+#content {
+
+
+
+
+
+
+padding: .5em;
+background-color: green;
 
 
 
 
 }
 
-image {
 
 
+
+img {
+
+  min-width: 400px;
+  max-width: 400px;
+  height: auto;
 
 
 }
